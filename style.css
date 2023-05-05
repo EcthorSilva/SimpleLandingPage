@@ -71,6 +71,13 @@ a {
   transition: 0.2s ease all;
   cursor: pointer;
 }
+@media screen and (max-width:800px) {
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+  }
+}
 
 /* Grid */
 .parent {
